@@ -16,8 +16,8 @@ public class Main {
         long mul = num1*num2;
         System.out.printf("Multiplication is %d \n", mul);
         if (num2 != 0) {
-            long div = num1 / num2;
-            System.out.printf("Division is %d \n", div);
+            float div = (float)num1 / num2;
+            System.out.printf("Division is %f \n", div);
         } else {
             System.out.print("Division impossible");
         }
